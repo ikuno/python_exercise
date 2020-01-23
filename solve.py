@@ -1,3 +1,6 @@
+"""
+Sample program for sympy module
+"""
 from sympy import *
 var ("x")
 equation = Eq(x**3 + 2 * x**2 - 5 * x - 6, 0)
